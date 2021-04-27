@@ -15,7 +15,7 @@ namespace Es2
                 using (StreamReader sr = new StreamReader(file))
                 {
                     string line;
-                    
+
                     Console.WriteLine("Contatore: \nInserire un numero: ");
                     string num = Console.ReadLine();
                     Console.WriteLine("I numeri randomici sono: ");
